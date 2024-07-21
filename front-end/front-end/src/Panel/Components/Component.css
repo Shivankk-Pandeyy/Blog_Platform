@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+/* FOOTER */
+.Footer{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#000000;
+    font-size: 1.25rem;
+}
+/* HEADER */
+.header-1{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#000000;
+}
+.name-1{
+    height: 6vh;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name-1 img{
+    height: 6vh;
+}
+.name-1 h2{
+    color: white;
+    font-size: 1.5rem;
+}
+.link-1{
+    height: 6vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.link-1 a{
+    color: white;
+    font-size: 1.25rem;
+}
+.link-1 .active{
+    text-decoration: underline;
+    color:#FF3131;
+}
+.link-1 button{
+    height: 5vh;
+    width: 7%;
+    background-color: #FF3131;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media screen and (min-width:100px) and (max-width:1500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        text-align: center;
+    }
+    /* FOOTER */
+    .Footer{
+        height: 6vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color:#000000;
+        font-size: 1rem;
+    }
+    /* HEADER */
+    .header-1{
+        height: 6vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color:#000000;
+    }
+    .name-1{
+        height: 6vh;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        display: none;
+    }
+    .name-1 img{
+        height: 6vh;
+    }
+    .name-1 h2{
+        color: white;
+        font-size: 1.5rem;
+    }
+    .link-1{
+        height: 6vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .link-1 a{
+        color: white;
+        font-size: 1rem;
+    }
+    .link-1 .active{
+        text-decoration: underline;
+        color:#FF3131;
+    }
+    .link-1 button{
+        height: 5vh;
+        width: 20%;
+        background-color: #FF3131;
+        color: black;
+        font-weight: 400;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+}

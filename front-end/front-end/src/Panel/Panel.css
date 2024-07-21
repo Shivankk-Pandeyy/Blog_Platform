@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+/* PANEL HOMEPAGE */
+.Panel{
+    height: 88vh;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-1{
+    height: 85vh;
+    width: 45%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-1 img{
+    height: 80vh;
+}
+.P-2{
+    height: 85vh;
+    width: 45%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-2 h2{
+    font-size: 3rem;
+    color:#FF3131;;
+}
+.P-2 p{
+    font-size: 1.25rem;
+    color: white;
+}
+.P-2Button{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-2Button a button{
+    height: 10vh;
+    width: 80%;
+    background-color: #6995B5;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.P-2Button a{
+    height: 10vh;
+    width: 100%;
+}
+
+/* ADD POST */
+
+/* VIEW PROFILE */
+.view-profile{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.view-profile-1{
+    height: 85vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.view-profile-1 img{
+    height: 80vh;
+}
+.view-profile-2{
+    height: 85vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.view-profile-2 h2{
+    font-size: 2rem;
+    color: #FF3131;
+}
+.view-profile-2 p{
+    font-size: 1.25rem;
+    background-color:#bde0fe;
+    color: black;
+    padding: 2vh;
+    border-radius: 10px;
+    cursor: not-allowed;
+}
+.view-profile-2 a{
+    height: 10vh;
+    width: 100%;
+}
+.view-profile-2 a button{
+    height: 10vh;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #6995B5;
+    cursor: pointer;
+}
+.view-profile-2 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 100%;
+}
+.view-profile-2 form label{
+    font-size: 2rem;
+    color: #FF3131;
+    font-weight: 500;
+}
+.view-profile-2 form input{
+    height: 8vh;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #bde0fe;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
+.view-profile-2 form button{
+    height: 8vh;
+    width: 25%;
+    background-color: #6995B5;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ADD POST */
+.AP{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.AP1{
+    height: 85vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.AP1 form{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.AP1 label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FF3131;
+}
+.AP1 input{
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: #bde0fe;
+    border-radius: 10px;
+    height: 8vh;
+    width: 90%;
+    color: black;
+}
+.AP1 button{
+    height: 6vh;
+    width: 20%;
+    background-color: #FF3131;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius:10px ;
+}
+.AP2{
+    height: 88vh;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    overflow:auto;
+}
+.BLOG-CARD{
+    text-align: center;
+    padding: 2vh;
+    min-height: 80vh;
+    min-width:90%;
+    max-width: 90%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+.BLOG-CARD h2{
+    font-size: 1.5rem;
+    color: #6995B5;
+}
+.BLOG-CARD p{
+    font-size: 1.25rem;
+}
+.BLOG-CARD span{
+    font-size: 1.5rem;
+    color: #FF3131;
+}
+.BLOG-CARD button{
+    height: 6vh;
+    width: 10%;
+    background-color: #FF3131;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* FEED PAGE */
+.FEED{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.F-search{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.F-search input{
+    height: 10vh;
+    width: 60%;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    background-color: #6995B5;
+    color: black;
+}
+.F-box{
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-y: auto;
+}
+.F-blog{
+    height: 60vh;
+    width: 45vw;
+    margin-top: 5vh;
+    border: 2px solid white;
+    padding: 3vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.F-blog h2{
+    font-size: 1.5rem;
+    color: #6995B5;
+}
+.F-blog span{
+    font-size: 1.5rem;
+    color: #FF3131;
+}
+.F-blog p{
+    font-size: 1.1rem;
+}
+.F-blogfound{
+    height: 60vh;
+    width: 45vw;
+    margin-top: 5vh;
+    border: 2px solid yellow;
+    padding: 3vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.F-blogfound h2{
+    font-size: 1.5rem;
+    color: #6995B5;
+}
+.F-blogfound span{
+    font-size: 1.5rem;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+.F-blogfound p{
+    font-size: 1.1rem;
+}
+/* MEDIA QUERY */
+@media screen and (min-width:100px) and (max-width:1500px){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+/* PANEL HOMEPAGE */
+.Panel{
+    height: 200vh;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-1{
+    height: 90vh;
+    width: 95%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-1 img{
+    height: 90vh;
+    width: 100%;
+}
+.P-2{
+    height: 85vh;
+    width: 95%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-2 h2{
+    font-size: 1.5rem;
+    color:#FF3131;;
+}
+.P-2 p{
+    font-size: 1.1rem;
+    color: white;
+}
+.P-2Button{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P-2Button a button{
+    height: 10vh;
+    width: 80%;
+    background-color: #6995B5;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.P-2Button a{
+    height: 10vh;
+    width: 100%;
+}
+
+/* ADD POST */
+
+/* VIEW PROFILE */
+.view-profile{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.view-profile-1{
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.view-profile-1 img{
+    height: 90vh;
+    width: 100%;
+}
+.view-profile-2{
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.view-profile-2 h2{
+    font-size: 2rem;
+    color: #FF3131;
+}
+.view-profile-2 p{
+    font-size: 1.1rem;
+    background-color:#bde0fe;
+    color: black;
+    padding: 2vh;
+    border-radius: 10px;
+    cursor: not-allowed;
+}
+.view-profile-2 a{
+    height: 10vh;
+    width: 100%;
+}
+.view-profile-2 a button{
+    height: 10vh;
+    width: 40%;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #6995B5;
+    cursor: pointer;
+}
+.view-profile-2 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 100%;
+}
+.view-profile-2 form label{
+    font-size: 1rem;
+    color: #FF3131;
+    font-weight: 500;
+}
+.view-profile-2 form input{
+    height: 8vh;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #bde0fe;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+.view-profile-2 form button{
+    height: 8vh;
+    width: 40%;
+    background-color: #6995B5;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ADD POST */
+.AP{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.AP1{
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.AP1 form{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.AP1 label{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FF3131;
+}
+.AP1 input{
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #bde0fe;
+    border-radius: 10px;
+    height: 6vh;
+    width: 90%;
+    color: black;
+}
+.AP1 button{
+    height: 5vh;
+    width: 30%;
+    background-color: #FF3131;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius:10px ;
+}
+.AP2{
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    overflow:auto;
+}
+.BLOG-CARD{
+    text-align: center;
+    padding: 2vh;
+    min-height: 80vh;
+    min-width:90%;
+    max-width: 90%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+.BLOG-CARD h2{
+    font-size: 1rem;
+    color: #6995B5;
+}
+.BLOG-CARD p{
+    font-size: 1rem;
+}
+.BLOG-CARD span{
+    font-size: 1rem;
+    color: #FF3131;
+}
+.BLOG-CARD button{
+    height: 6vh;
+    width: 40%;
+    background-color: #FF3131;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* FEED PAGE */
+.FEED{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.F-search{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.F-search input{
+    height: 10vh;
+    width: 95%;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #6995B5;
+    color: black;
+}
+.F-box{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-y: auto;
+}
+.F-blog{
+    min-height: 60vh;
+    width: 95%;
+    margin-top: 5vh;
+    border: 2px solid white;
+    padding: 3vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.F-blog h2{
+    font-size: 1rem;
+    color: #6995B5;
+}
+.F-blog span{
+    font-size: 1rem;
+    color: #FF3131;
+}
+.F-blog p{
+    font-size: 1rem;
+}
+.F-blogfound{
+    min-height: 60vh;
+    width: 95%;
+    margin-top: 5vh;
+    border: 2px solid yellow;
+    padding: 3vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.F-blogfound h2{
+    font-size: 1rem;
+    color: #6995B5;
+}
+.F-blogfound span{
+    font-size: 1rem;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+.F-blogfound p{
+    font-size: 1rem;
+}
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+/* FOOTER */
+.Footer{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#000000;
+    font-size: 1.25rem;
+}
+/* HEADER */
+.header{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#000000;
+}
+.name{
+    height: 6vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name img{
+    height: 6vh;
+}
+.name h2{
+    color: white;
+    font-size: 1.5rem;
+}
+.link{
+    height: 6vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.link a{
+    color: white;
+    font-size: 1.25rem;
+}
+.link .active{
+    text-decoration: underline;
+    color:#FF3131;
+}
+@media screen and (min-width:100px) and (max-width:1500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        text-align: center;
+    }
+    /* FOOTER */
+    .Footer{
+        height: 6vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color:#000000;
+        font-size: 1rem;
+    }
+    /* HEADER */
+    .header{
+        height: 6vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color:#000000;
+    }
+    .name{
+        height: 6vh;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .name img{
+        height: 6vh;
+    }
+    .name h2{
+        color: white;
+        font-size: 1rem;
+    }
+    .link{
+        height: 6vh;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .link a{
+        color: white;
+        font-size: 1rem;
+    }
+    .link .active{
+        text-decoration: underline;
+        color:#FF3131;
+    }
+}
